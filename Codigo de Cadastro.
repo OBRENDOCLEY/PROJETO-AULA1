@@ -1,0 +1,11 @@
+seunome = str(input("Digite seu nome?:"))
+print("Bem vindo ao nosso cadastro",seunome,'!!')
+dia = input('Qual dia você nasceu?:')
+mês = input('Qual mês você nasceu?:')
+ano = input('Qual ano você nasceu?:')
+print("Você nasceu em",(dia + mês + ano),",correto?") 
+acao = str(input("Resposta:")) 
+if(acao == "sim"):                         
+    print("Cadastro finalizado.")
+if(acao == "não"):
+    print("Aperte F5 para recemeçãr.")
